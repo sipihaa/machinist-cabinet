@@ -1,0 +1,17 @@
+{% extends "base.html" %}
+{% block title %}Инструктажи и учеба{% endblock %}
+{% block content %}
+<div class="section">
+    <h2>Инструктажи и учеба</h2>
+    <ul>
+        {% for training in trainings %}
+        <li>
+            <div class="info-block">
+                <p><strong>{{ training.name }}</strong></p>
+                <button>Пройти</button>
+            </div>
+        </li>
+        {% endfor %}
+    </ul>
+</div>
+{% endblock %}

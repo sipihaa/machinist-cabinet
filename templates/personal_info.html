@@ -1,0 +1,15 @@
+{% extends "base.html" %}
+{% block title %}Личная информация{% endblock %}
+{% block content %}
+<div class="section">
+    <h2>Личная информация</h2>
+    <div class="info-block"><strong>Дата рождения:</strong> {{ data.birth_date }}</div>
+    <div class="info-block"><strong>Табельный номер:</strong> {{ data.table_number }}</div>
+    <div class="info-block"><strong>Дата приписки:</strong> {{ data.enlistment_date }}</div>
+    <div class="info-block"><strong>Предприятие:</strong> {{ data.enterprise }}</div>
+    <div class="info-block"><strong>Должность:</strong> {{ data.position }}</div>
+    <div class="info-block"><strong>Дата назначения:</strong> {{ data.appointment_date }}</div>
+    <div class="info-block"><strong>Категория:</strong> {{ data.category }}</div>
+    <div class="info-block"><strong>Email:</strong> {{ data.email }}</div>
+</div>
+{% endblock %}

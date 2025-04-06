@@ -1,0 +1,17 @@
+# Виртуальное окружение
+.venv/
+
+# Временные файлы Python
+*.pyc
+__pycache__/
+*.pyo
+*.pyd
+
+# Логи и кэш
+*.log
+*.cache
+
+# IDE-файлы (если используете PyCharm, VS Code и т.д.)
+.idea/
+*.swp
+.vscode/

@@ -1,0 +1,17 @@
+{% extends "base.html" %}
+{% block title %}Журнал мероприятий{% endblock %}
+{% block content %}
+<div class="section">
+    <h2>Журнал мероприятий</h2>
+    <ul>
+        {% for event in events %}
+        <li>
+            <div class="info-block">
+                <p><strong>Дата:</strong> {{ event.date }}</p>
+                <p><strong>Событие:</strong> {{ event.event }}</p>
+            </div>
+        </li>
+        {% endfor %}
+    </ul>
+</div>
+{% endblock %}

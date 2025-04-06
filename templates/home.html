@@ -1,0 +1,32 @@
+{% extends "base.html" %}
+{% block title %}Главный экран{% endblock %}
+{% block content %}
+<h1>Здравствуйте, Иван Иванов!</h1>
+
+<div class="dashboard-top">
+    <div class="summary">
+        <h3>Краткая сводка</h3>
+        <p>Дата последнего инструктажа: 01.04.2025</p>
+        <p>Статус текущего маршрутного листа: Активен</p>
+        <p>Непрочитанных материалов: 3</p>
+    </div>
+    <div class="quick-actions">
+        <h3>Быстрые действия</h3>
+        <button>Пройти предрейсовый инструктаж</button>
+        <button>Пройти очередной инструктаж</button>
+        <button>Пройти инструктаж по изменению ТРА станций</button>
+        <button>Пройти техническую учебу</button>
+    </div>
+</div>
+
+<div class="section">
+    <h2>Текущий маршрутный лист</h2>
+    <div class="info-block">
+        <p><strong>Номер:</strong> МРЛ-2025-0425</p>
+        <p><strong>Дата:</strong> 06.04.2025</p>
+        <p><strong>Маршрут:</strong> Станция А → Станция Б</p>
+        <p><strong>Состав бригады:</strong> Иванов И.И., Петров П.П.</p>
+        <p><strong>Состояние:</strong> В процессе</p>
+    </div>
+</div>
+{% endblock %}
