@@ -2,8 +2,8 @@
 
 ## Установка
 1. Клонируйте репозиторий:
-git clone https://github.com/yourusername/machinist_cabinet.git
-cd machinist_cabinet
+git clone https://github.com/sipihaa/machinist-cabinet.git
+cd machinist-cabinet
 2. Создайте виртуальное окружение:
 python -m venv .venv
 3. Активируйте:
