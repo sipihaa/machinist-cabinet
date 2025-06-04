@@ -22,7 +22,7 @@ def login():
             session['user'] = username
             return redirect(url_for('home'))
         else:
-            flash('Неверный логин или пароль')
+            flash('Неверный логин или password')
             return redirect(url_for('login'))
     return render_template('login.html')
 
